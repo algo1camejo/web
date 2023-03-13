@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en" class="has-navbar-fixed-top">
+<head>
+  <meta charset="utf-8">
+  <title>Algo1Camejo</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran">
+<link rel="stylesheet" href="styles.04dce48319a8141c0e26.css"></head>
+<body>
+  <app-root></app-root>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach( el => {
+          el.addEventListener('click', () => {
+
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+
+          });
+        });
+      }
+
+    });
+  </script>
+<script src="runtime-es2015.0dae8cbc97194c7caed4.js" type="module"></script><script src="runtime-es5.0dae8cbc97194c7caed4.js" nomodule defer></script><script src="polyfills-es5.177e85a9724683782539.js" nomodule defer></script><script src="polyfills-es2015.f332a089ad1600448873.js" type="module"></script><script src="main-es2015.ffa71af556e2fb56e9e4.js" type="module"></script><script src="main-es5.ffa71af556e2fb56e9e4.js" nomodule defer></script></body>
+</html>
